@@ -30,8 +30,8 @@ public class Exercicio02 {
 
         for (int i = 0; i < 4; i++) {
             System.out.println("pessoa " + (i + 1));
-            pesos[i] = Double.parseDouble(IO.readln("  peso (kg): ").replace(",", "."));
-            alturas[i] = Double.parseDouble(IO.readln("  altura (m): ").replace(",", "."));
+            pesos[i] = Double.parseDouble(IO.readln("peso (kg): ").replace(",", "."));
+            alturas[i] = Double.parseDouble(IO.readln("altura (m): ").replace(",", "."));
         }
 
         System.out.println();

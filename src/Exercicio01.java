@@ -24,10 +24,7 @@ public class Exercicio01 {
         System.out.println();
         for (int i = 0; i < alturas.length; i++) {
             desenharTriangulo(alturas[i]);
-            // linha em branco so entre eles, nao depois do ultimo
-            if (i < alturas.length - 1) {
-                System.out.println();
-            }
+            System.out.println();
         }
     }
 }

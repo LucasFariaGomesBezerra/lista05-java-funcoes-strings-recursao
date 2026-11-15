@@ -23,10 +23,7 @@ public class Exercicio05 {
         int[] numeros = new int[5];
 
         for (int i = 0; i < numeros.length; i++) {
-            numeros[i] = Integer.parseInt(IO.readln("numero " + (i + 1) + " (nao negativo): "));
-            while (numeros[i] < 0) {
-                numeros[i] = Integer.parseInt(IO.readln("tem que ser 0 ou mais, digita de novo: "));
-            }
+            numeros[i] = Integer.parseInt(IO.readln("numero " + (i + 1) + ": "));
         }
 
         System.out.println();

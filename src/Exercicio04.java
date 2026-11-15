@@ -2,8 +2,8 @@ public class Exercicio04 {
 
     // metodo da bolha
     static void ordenar(int[] v) {
-        for (int volta = 0; volta < v.length - 1; volta++) {
-            for (int i = 0; i < v.length - 1 - volta; i++) {
+        for (int j = 0; j < v.length; j++) {
+            for (int i = 0; i < v.length - 1; i++) {
                 if (v[i] > v[i + 1]) {
                     int aux = v[i];
                     v[i] = v[i + 1];
